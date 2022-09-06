@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const container = styled.section`
   max-width: 1140px;
-  height: 100vh;
   margin: auto;
   display: grid;
   grid-template-columns: 3fr 2.5fr;
@@ -13,9 +12,11 @@ export const container = styled.section`
 
   @media (max-width: 1024px) {
     max-width: 924px;
+    height: 100vh;
   }
 
   @media (max-width: 768px) {
+    height: 100%;
     max-width: 750px;
   }
 
@@ -137,6 +138,9 @@ export const sobre = styled.div`
     text-decoration: none;
     &:first-child {
       margin-right: 2rem;
+      @media (max-width: 320px) {
+        margin-right: .5rem;
+      }
     }
   }
 

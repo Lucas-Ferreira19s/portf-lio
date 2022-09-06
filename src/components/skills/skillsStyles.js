@@ -18,8 +18,11 @@ export const Container = styled.section`
     max-width: 420px;
   }
 
-  div {
+  .title {
     position: relative;
+    @media (max-width: 768px) {
+      margin-left: 0.5rem;
+    }
   }
 
   h2 {
@@ -51,7 +54,7 @@ export const Card = styled.div`
   margin: auto;
 
   @media (max-width: 768px) {
-    transform: translateX(2rem);
+    transform: translateX(0);
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
     width: 80%;
@@ -60,7 +63,15 @@ export const Card = styled.div`
   @media (max-width: 425px) {
     max-width: 420px;
     grid-template-columns: 1fr;
-    transform: translateX(0.6rem);
+    transform: translateX(1.5rem);
+  }
+
+  @media (max-width: 375px) {
+    transform: translateX(0.7rem);
+  }
+
+  @media (max-width: 375px) {
+    transform: translateX(0);
   }
 
   .skills_card {

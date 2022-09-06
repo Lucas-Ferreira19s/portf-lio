@@ -6,7 +6,7 @@ function Skills() {
     return (
         <C.Container id='skils'>
 
-            <div>
+            <div className='title'>
                 <h2 className="section_title delaySmallReveal">Conhecimentos</h2>
             </div>
 
