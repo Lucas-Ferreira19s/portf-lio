@@ -34,17 +34,17 @@ function Modal({ modal, set, pj }) {
                                 <div className="icon"><i className="ri-checkbox-circle-fill portfolios_modal-icon"></i>
                                     <h3> Descrição:</h3>
                                 </div>
-                                <p>Website desenvolvido durante o evento Next Level Week 6 da Rocketseat. </p>
+                                <p>{Projetos[pj].descricao}</p>
                                 <div className="portfolio_tech">
                                     <div className="icon">
                                         <i className="ri-hashtag portfolios_modal-icon"></i><h3>Tecnologias:</h3>
                                     </div>
                                     <article className="portfolio_tech-icon">
-                                        <a className="button button--flex " href="#" target="_blank"> HTML </a>
-                                        <a className="button button--flex" href="#" target="_blank"> CSS </a>
-                                        <a className="button button--flex " href="#" target="_blank"> JavaScript </a>
-                                        <a className="button button--flex " href="#" target="_blank"> Swiper JS </a>
-                                        <a className="button button--flex" href="#" target="_blank"> ScrollReveal</a>
+                                        {
+                                            Projetos[pj].Tecnologias.map((item, index)=>
+                                                <a key={index} className="button button--flex " href={item[1]} target="_blank">{item[0]}</a>
+                                            )
+                                        }
                                     </article>
                                 </div>
                             </C.Data>

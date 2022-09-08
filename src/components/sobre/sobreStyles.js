@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const container = styled.section`
   max-width: 1140px;
   margin: auto;
+  height: 80vh;
   display: grid;
   grid-template-columns: 3fr 2.5fr;
   gap: 1rem;

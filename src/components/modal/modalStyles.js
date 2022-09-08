@@ -26,6 +26,7 @@ export const Content = styled.div`
   background-color: #2b2e41;
   padding: 1.5rem;
   border-radius: 0.5rem;
+  max-width: 1024px;
 
   @media (max-width: 350px) {
     padding: 1rem;
@@ -135,7 +136,7 @@ export const Data = styled.div`
   }
 
   .portfolio_tech-icon {
-
+    width: 70%;
     a {
       display: inline-flex;
       gap: 1rem;
@@ -147,6 +148,7 @@ export const Data = styled.div`
       transition: all 0.3s;
       justify-content: center;
       align-items: center;
+      text-transform: uppercase;
 
       &:hover {
         background: #fe727b;

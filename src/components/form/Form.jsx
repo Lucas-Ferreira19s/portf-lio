@@ -23,7 +23,7 @@ function Form() {
                         </div>
                     </div>
                     <C.Form >
-                        <form action='mailto:lucasvasconcellos765@gmail.com' method='post' encType='text/plain'>
+                        <form action='lucasvasconcellos765@gmail.com' method='post' encType='text/plain'>
                             <input type="text" className="form-input" placeholder="Nome" name='nome' required />
                             <input type="email" className="form-input" placeholder="Email" name='email' required />
                             <textarea className="form-textarea" placeholder="Mensagem" name='mensagem' required ></textarea>

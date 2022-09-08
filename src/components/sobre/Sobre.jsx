@@ -13,12 +13,12 @@ function Sobre() {
                     <h4>Olá, Eu sou <span>Lucas.</span> Prazer em Conhecê-lo</h4>
                     <p>
                         Desde muito cedo sou apaixonado por tecnologia, então descobri o desenvolvimento Web. 
-                        É hoje estou me qualificando para entra na área de denvolvimento Front. Estudando e 
+                        E hoje estou me qualificando para entra na área de denvolvimento Front. Estudando e 
                         consolidando meus conhecimentos para evoluir sempre na área, minha jornada está 
                         apenas começando.
                     </p>
                     <p>
-                        Este é meu Portfólio nele está alguns de meus projetos, mas porfavor não deixe de verificar 
+                        Este é meu Portfólio nele está alguns de meus projetos, mas por favor não deixe de verificar 
                         meu <a className='git-sobre' href='https://github.com/Lucas-Ferreira19s' target="_blank">GitHub</a>, 
                         para mais informações meu telefone e meu CV estão logo a baixo. Obrigado e fique vontade
                     </p> 
