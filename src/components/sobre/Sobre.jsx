@@ -1,5 +1,6 @@
 import React from 'react'
 import * as C from './sobreStyles'
+import cv from "../../assets/cv/Lucas Vasconcelos.pdf"
 import perfil from '../../assets/imgs/perfil.jpg'
 
 import 'remixicon/fonts/remixicon.css'
@@ -25,7 +26,7 @@ function Sobre() {
                     
                     <div className='buttons'>
                         <a href='#contact' className='hire'>Contrate-me</a>
-                        <a href='#' className='down'>Download CV</a>
+                        <a href={cv} download className='down'>Download CV</a>
                     </div>
                 </div>
                 <C.card>

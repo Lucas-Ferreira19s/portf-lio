@@ -23,10 +23,12 @@ function Form() {
                         </div>
                     </div>
                     <C.Form >
-                        <form action='lucasvasconcellos765@gmail.com' method='post' encType='text/plain'>
-                            <input type="text" className="form-input" placeholder="Nome" name='nome' required />
-                            <input type="email" className="form-input" placeholder="Email" name='email' required />
-                            <textarea className="form-textarea" placeholder="Mensagem" name='mensagem' required ></textarea>
+                        <form action="https://formsubmit.co/lucasdevfront@gmail.com" method="POST">
+                            <input type="hidden" name="_captcha" value="false"/>
+                            <input type="hidden" name="_next" value="https://lucasvferreira.vercel.app/#contact" />
+                            <input type="text" name="name" className="form-input" placeholder="Nome" required />
+                            <input type="email" name="email" className="form-input" placeholder="Email" required />
+                            <textarea className="form-textarea" placeholder="Mensagem" name="mensagem" required ></textarea>
                             <input type="submit" value="Enviar mensagem" className="btn-1"></input>
                         </form>
                     </C.Form>
