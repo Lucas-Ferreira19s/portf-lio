@@ -25,7 +25,6 @@ function Form() {
                     <C.Form >
                         <form action="https://formsubmit.co/lucasdevfront@gmail.com" method="POST">
                             <input type="hidden" name="_captcha" value="false"/>
-                            <input type="hidden" name="_next" value="https://lucasvferreira.vercel.app/#contact" />
                             <input type="text" name="name" className="form-input" placeholder="Nome" required />
                             <input type="email" name="email" className="form-input" placeholder="Email" required />
                             <textarea className="form-textarea" placeholder="Mensagem" name="mensagem" required ></textarea>
