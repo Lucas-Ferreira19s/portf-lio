@@ -20,6 +20,7 @@ export const Container = styled.section`
 
   .title {
     position: relative;
+    margin-top: 3rem;
     @media (max-width: 768px) {
       margin-left: 0.5rem;
     }
@@ -28,6 +29,7 @@ export const Container = styled.section`
   h2 {
     font-size: 2.2rem;
     padding-left: 0.9rem;
+    
     margin-bottom: 2rem;
     &::before {
       display: block;
