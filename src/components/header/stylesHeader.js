@@ -11,6 +11,7 @@ export const Header = styled.header`
 export const navList = styled.nav`
   display: flex;
   justify-content: space-between;
+  padding: 1rem;
   align-items: center;
   height: 4.5rem;
   width: 100%;

@@ -68,4 +68,30 @@ export const Sobre = styled.section`
       }
     }
   }
+
+  .arrow {
+    position: absolute;
+    bottom: 1rem;
+    text-decoration: none;
+
+    @keyframes anima-seta {
+      to {
+        opacity: 1;
+        transform: translateY(1rem);
+      }
+    }
+
+    .icon {
+      font-size: 3rem;
+      color: #f8fdfe;
+      width: 50px;
+      height: 50px;
+      background: transparent;
+      margin: auto;
+      float: none;
+      display: block;
+      opacity: 0;
+      animation: anima-seta 1s ease infinite;
+    }
+  }
 `;

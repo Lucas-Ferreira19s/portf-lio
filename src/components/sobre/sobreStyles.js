@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const container = styled.section`
   max-width: 1140px;
   margin: auto;
-  height: 80vh;
+  height: 100vh;
   display: grid;
   grid-template-columns: 3fr 2.5fr;
   gap: 1rem;
@@ -17,12 +17,13 @@ export const container = styled.section`
   }
 
   @media (max-width: 768px) {
+    padding-top: 5rem;
     height: 100%;
     max-width: 750px;
   }
 
   @media (max-width: 425px) {
-    padding: 15px;
+    padding: 1rem;
     max-width: 400px;
     display: block;
   }
@@ -60,6 +61,9 @@ export const card = styled.div`
     text-align: center;
     border: 1px solid #2b2e41;
     transition: all linear 0.4s;
+    @media (max-width: 768px) {
+      flex: 0 0 60%;
+    }
     @media (max-width: 425px) {
       margin-bottom: 1rem;
     }
@@ -103,6 +107,8 @@ export const sobre = styled.div`
   h4 {
     font-size: 1.5rem;
     margin-bottom: 1.3rem;
+    line-height: 33px;
+    letter-spacing: 1px;
     span {
       color: #fd4b57;
     }
@@ -138,9 +144,9 @@ export const sobre = styled.div`
     transition: all linear 0.4s;
     text-decoration: none;
     &:first-child {
-      margin-right: 2rem;
+      margin-right: 1.5rem;
       @media (max-width: 320px) {
-        margin-right: .5rem;
+        margin-right: 0.3rem;
       }
     }
   }

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.section`
-  padding: 2.5rem 0 4rem;
+  padding: 2.5rem 0;
   max-width: 1140px;
   margin: auto;
   color: #f8fdfe;
@@ -22,14 +22,13 @@ export const Container = styled.section`
     position: relative;
     margin-top: 3rem;
     @media (max-width: 768px) {
-      margin-left: 0.5rem;
+      margin-left: 1rem;
     }
   }
 
   h2 {
     font-size: 2.2rem;
     padding-left: 0.9rem;
-    
     margin-bottom: 2rem;
     &::before {
       display: block;
@@ -49,8 +48,7 @@ export const Card = styled.div`
   gap: 1.5rem;
   justify-content: center;
   align-items: center;
-  transform: translateX(2rem);
-  transform: translateX(-2rem);
+  transform: translateX(1.5rem);
   grid-template-columns: repeat(3, 1fr);
   max-width: 768px;
   margin: auto;
@@ -69,17 +67,17 @@ export const Card = styled.div`
   }
 
   @media (max-width: 375px) {
-    transform: translateX(0.7rem);
+    transform: translateX(1rem);
   }
 
-  @media (max-width: 375px) {
+  @media (max-width: 320px) {
     transform: translateX(0);
   }
 
   .skills_card {
     width: 16rem;
     position: relative;
-    height: 25rem;
+    height: 20rem;
     margin: 0.5rem;
     border-radius: 25px;
     background: #2b2e41;
@@ -182,7 +180,7 @@ export const Card = styled.div`
       font-weight: 600;
       text-align: center;
       position: relative;
-      bottom: 23.2rem;
+      bottom: 18rem;
       right: 3rem;
       z-index: 1;
     }
@@ -190,7 +188,7 @@ export const Card = styled.div`
     .card_description {
       position: relative;
       text-align: center;
-      bottom: 18rem;
+      bottom: 14rem;
       margin: 0 0.9rem;
       z-index: 1;
       color: #fff;

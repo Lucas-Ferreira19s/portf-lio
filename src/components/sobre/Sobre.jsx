@@ -13,17 +13,15 @@ function Sobre() {
                     <h2>Sobre</h2>
                     <h4>Olá, Eu sou <span>Lucas.</span> Prazer em Conhecê-lo</h4>
                     <p>
-                        Desde muito cedo sou apaixonado por tecnologia, então descobri o desenvolvimento Web. 
-                        E hoje estou me qualificando para entra na área de denvolvimento Front. Estudando e 
-                        consolidando meus conhecimentos para evoluir sempre na área, minha jornada está 
-                        apenas começando.
+                        Sou desenvolvedor Front End, tenho 23 anos, desde o ano passado estudo programação,
+                        atualmente estou aprimorando meus conhecimentos em React JS,
+                        estou buscando e naturalmente curioso e trabalhando para melhorar minhas habilidades.
                     </p>
                     <p>
-                        Este é meu Portfólio nele está alguns de meus projetos, mas por favor não deixe de verificar 
-                        meu <a className='git-sobre' href='https://github.com/Lucas-Ferreira19s' target="_blank">GitHub</a>, 
-                        para mais informações meu telefone e meu CV estão logo a baixo. Obrigado e fique vontade
-                    </p> 
-                    
+                        Este é meu Portfólio nele estão alguns de meus projetos, mas por favor não deixe de verificar
+                        meu <a className='git-sobre' href='https://github.com/Lucas-Ferreira19s' target="_blank">GitHub</a>.
+                    </p>
+
                     <div className='buttons'>
                         <a href='#contact' className='hire'>Contrate-me</a>
                         <a href={cv} download className='down'>Download CV</a>
@@ -43,7 +41,7 @@ function Sobre() {
                 </C.card>
             </C.sobre>
             <div className='perfil'>
-                <img src={perfil}alt="Perfil" />
+                <img src={perfil} alt="Perfil" />
             </div>
         </C.container>
     )

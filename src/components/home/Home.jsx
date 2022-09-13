@@ -12,6 +12,7 @@ function Sobre() {
           <a href='#contact'>Contrate-me</a>
         </div>
       </div>
+      <a href='#about' className='arrow'><i className="icon ri-arrow-down-s-line"></i></a>
     </C.Sobre>
   )
 }

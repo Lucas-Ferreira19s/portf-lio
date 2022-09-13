@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.section`
   max-width: 1140px;
+  padding-top: 5rem;
   margin: auto;
   color: #f8fdfe;
 
@@ -19,10 +20,11 @@ export const Container = styled.section`
 
   .title {
     position: relative;
+    margin-left: 1rem;
     h2 {
       font-size: 2.2rem;
       padding-left: 0.9rem;
-      margin-bottom: 2rem;
+      margin-bottom: 1rem;
       &::before {
         display: block;
         position: absolute;
@@ -59,7 +61,7 @@ export const gridPort = styled.div`
   .portfolios_content {
     position: relative;
     background-color: #2b2e41;
-    transition: 0.3s;
+    transition: ease-in-out 0.4s;
     border: 4px solid #2b2e41;
     width: 20rem;
 
