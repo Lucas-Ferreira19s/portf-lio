@@ -17,7 +17,7 @@ function Form() {
                             <ul>
                                 <li><span><i className="ri-whatsapp-fill"></i></span>(85) 9 81094944</li>
                                 <li><span><i className="ri-mail-fill"></i></span>lucasdevfront@gmail.com</li>
-                                <li><span><i className="ri-global-fill"></i></span>www.domain.com</li>
+                                <li><span><i className="ri-global-fill"></i></span>www.lucasdevfront.tech</li>
                                 <li><span><i className="ri-map-pin-2-fill"></i></span>Brazil, Trairi-Ce</li>
                             </ul>
                         </div>
