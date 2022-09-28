@@ -1,6 +1,6 @@
 import React from 'react'
 import * as C from './sobreStyles'
-import cv from "../../assets/cv/Lucas Vasconcelos.pdf"
+import cv from "../../assets/cv/Lucas V. Ferreira.pdf"
 import perfil from '../../assets/imgs/perfil.jpg'
 
 import 'remixicon/fonts/remixicon.css'
